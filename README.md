@@ -6,7 +6,7 @@ Based on the S3 object notifications, Lambda parses the files and group the resu
 
 ## Getting started
 
-Make sure you have Python 3.11 and the AWS SAM installed. Then you can run
+Make sure you have [Python 3.11](https://www.python.org/downloads/release/python-3114/) and the [AWS SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html) installed. Then you can run:
 
 ```
 sam build
@@ -14,7 +14,7 @@ sam build
 
 After that you can deploy the application. Keep in mind for the first time, you should add the flag `--guided` to configure the stack name and the `StockUpdateBucketName`. See also the [samconfig.example.toml](samconfig.example.toml) example configuration file.
 
-To deploy run
+To deploy run:
 ```
 sam deploy
 ```
