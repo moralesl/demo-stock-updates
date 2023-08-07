@@ -11,7 +11,7 @@ Parameters:
 
 Globals:
   Function:
-    MemorySize: 1024
+    MemorySize: 1536
     Timeout: 5
     Runtime: python3.11
     Architectures:
